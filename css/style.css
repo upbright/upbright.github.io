@@ -1,0 +1,64 @@
+.banner
+{
+	padding-top: 200px;
+	background:#efeff5;
+
+	
+}
+
+nav li
+{
+	font-weight: bold;
+
+}
+
+
+.headings
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+}
+
+nav a, nav li 
+{
+	color: blue;
+}
+
+.banner h1, .banner p
+{
+	color: black;
+}
+
+.slider
+{
+   
+
+}
+
+.head a
+{
+	color: white;
+}
+
+
+.faculty
+{
+	padding-top: 60px;
+	background:white;
+	padding-bottom: 50px;
+}
+
+
+.features
+{
+	background:#efeff5;
+
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+footer, footer a
+{
+color: white;
+   padding-top: 40px;
+}
