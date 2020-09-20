@@ -1,64 +1,377 @@
-.banner
+body
 {
-	padding-top: 200px;
-	background:#efeff5;
-
+	margin:0;
+	padding:0;
+	font-family: 'Noto Sans', sans-serif; 
 	
 }
 
-nav li
+a 
 {
-	font-weight: bold;
+    text-decoration: none;
+}
+
+.container
+{
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+header
+{
+    background: #F1F1F1;
+    padding: 20px 0 20px 0;
+}
+
+#logo 
+{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+header ul 
+{
+    margin: 0;
+    padding: 0;
+}
+
+header li 
+{
+    display: inline;
+    padding: 0px 10px  0px 10px;
 
 }
 
-
-.headings
+header nav 
 {
-	font-family: 'Oswald', sans-serif;
-	font-size: 40px;
+    float: right;
 }
 
-nav a, nav li 
+#banner img 
 {
-	color: blue;
+    width: 670px; 
+  
+    float: left;
 }
 
-.banner h1, .banner p
+.bannerStatement h2 
 {
-	color: black;
+    color:#1D82CB; 
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
 }
 
-.slider
+.bannerStatement span
 {
+    color:#1D82CB; 
+}
+
+.bannerStatement button
+{
+    color: white;
+    background: #1D82CB;
+    border: 0;
+    padding: 5px 10px 5px 10px;
+
+
+}
+
+.bannerStatement
+{
+    float: right;
+    padding: 140px 0px 0px 30px;
+}
+
+#banner
+{
+    padding: 60px 0px 30px 0px;
+
+}
+
+#whyUpbright .container img
+{
+    width: 100px;
+    float: left;
+}
+
+#whyUpbright
+{
+    padding: 60px;
+}
+
+
+.tileStatement h2 
+{
+    color:  #1D82CB;
+    padding: 0;
+    margin: 0;
+}
+
+.tileStatement
+ {
+    display: inline-block;
+     width: 400px;
+     float: left;
+     margin-top: 30px;
+ }
+
+ .tileStatement p 
+ {
+     font-size: 18px;
+ }
+
+ #tile1
+ {
+     padding: 20px;
+     display: inline-block;
+    border: 2px solid #B9B9B9;
+    border-radius: 5px;
+     float:left;
+     min-height: 150px;
+     margin-bottom: 10px;
+ }
+
+ #tile2
+ {
+     padding: 20px;
+     display: inline-block;
+     border: 2px solid #B9B9B9;
+    border-radius: 5px;
+     float: right;
+     min-height: 150px;
+     margin-bottom: 10px;
+     
+ }
+ #tile3
+ {
+     padding: 20px;
+     display: inline-block;
+     border: 2px solid #B9B9B9;
+     border-radius: 5px;
+     float: left;
+     min-height: 150px;
+
+     margin-top: 10px;
+ }
+ #tile4
+ {
+     padding: 20px;
+     display: inline-block;
+     border: 2px solid #B9B9B9;
+     border-radius: 5px;
+     float: right;
+     min-height: 150px;
+     margin-top: 10px;
+ }
+
+
+ #id 
+ {
+     width: 600px;
+ }
+#logo 
+{
+    color: #1D82CB;
+}
+ #visitUS article 
+ {
+     width: 40%;
+     text-align: center;
+     float: left;
+     background: white;
+     padding: 20px;
+ }
+
+ #visitUS
+ {
+     background: #F0EAEA;
+     padding: 40px 0 40px 0;
+ }
+ 
+ #visitUS img 
+ {
+     width: 50%;
+     float: right;
+ }
+
+ #visitUS article h2 
+ {
+     margin:0; 
+     padding: 0;
+ }
+
+ #connect {
+     
+     width: 40%;
+     float: left;
+ }
+
+ #terms {
+  
    
-
+    float: left;
 }
 
-.head a
+a 
 {
-	color: white;
+    text-decoration: none;
 }
 
-
-.faculty
+#contactInfo
 {
-	padding-top: 60px;
-	background:white;
-	padding-bottom: 50px;
+    padding: 30px 0 30px 0;
 }
 
-
-.features
+#contact
 {
-	background:#efeff5;
-
-	padding-top: 60px;
-	padding-bottom: 30px;
+    
+    text-align: center;
+    padding: 10px 0px 10px 0px;
 }
 
-footer, footer a
+footer
 {
-color: white;
-   padding-top: 40px;
+    text-align: center;
+    padding: 20px 0 20px 0;
 }
+
+#contactInfo span
+{
+    color: #858181;
+}
+
+
+@media(max-width: 1480px){
+   
+    #whyUpbright
+    {
+        text-align: center;
+    }
+    #tile1, #tile2, #tile3, #tile4
+   {
+        display: inline-block;
+       float: none;
+       width: 90%;
+       margin-right: 20px;
+       
+       text-align: center;
+       background: white;
+      margin: 0 0 60px 0; 
+       
+   }
+   
+   .tileStatement
+   {
+       float: right;
+       width: 100%;
+       padding:0;
+       margin:0;
+
+    }
+
+   #whyUpbright .container img
+   {
+       float: none;
+     
+   }
+
+   #whyUpbright .tileStatement h2
+   {
+       margin: 0;
+       padding: 0;
+   }
+
+
+
+  }
+  
+
+  @media(max-width: 830px)
+  {
+      .container
+      {
+          width: 90%;
+      }
+
+      header h3, nav
+        {
+            float:none; 
+            width: 100%;
+            text-align: center;
+        }
+
+        nav 
+        {
+            margin-top: 20px;
+        }
+
+        #banner img 
+        {
+            float: none;
+            width: 100%;
+        }
+
+        .bannerStatement
+        {
+            width: 100%;
+            float: none;
+            text-align: center;
+            padding-left: 0;
+            padding-top: 60px;
+        }
+        #whyUpbright 
+        {
+            padding-top: 10px;
+            padding-left: 5px; 
+            padding-right: 5px; 
+            padding-bottom: 10px;
+        }
+
+        #tile1, #tile2, #tile3, #tile4
+        {
+            margin-bottom: 42px;
+            width: 70%;
+        }
+
+        #visitUS .container article, #visitUS .container img
+        {
+            float: none;
+            
+        }
+
+        #visitUS article
+        {
+            background: yellow;
+            float:none; 
+            width: 90%;
+            margin: auto;
+        }
+
+        #visitUS img 
+        {
+           display: none;
+        }
+
+        #visitUS
+        {
+            padding-top: 30px;
+            width: 100%;
+        }
+
+       #connect, #terms
+       {
+         float: none; 
+         width: 100%;
+         text-align: center;
+       }
+
+       #connect
+       {
+           margin-bottom: 20px;
+       }
+
+       
+    }
